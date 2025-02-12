@@ -1,19 +1,34 @@
 {
   "name": "natedowney",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Get to know Nate Downey via `npx natedowney`",
   "main": "index.js",
   "bin": {
     "natedowney": "./index.js"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
     "lint": "eslint index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nate7611/natedowney.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "npm"
+  ],
   "author": "Nate Downey",
   "license": "MIT",
-  "repository": "https://github.com/Nate7611/natedowney",
+  "bugs": {
+    "url": "https://github.com/Nate7611/natedowney/issues"
+  },
+  "homepage": "https://github.com/Nate7611/natedowney#readme",
   "devDependencies": {
     "@eslint/js": "^9.20.0",
     "eslint": "^9.20.0",
